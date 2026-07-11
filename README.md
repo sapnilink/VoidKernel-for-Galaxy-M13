@@ -59,8 +59,8 @@ Planned improvements include:
 Clone the repository:
 
 ```bash
-git clone https://github.com/<your-username>/VoidKernel.git
-cd VoidKernel
+git clone https://github.com/sapnilink/VoidKernel-for-Galaxy-M13.git
+cd VoidKernel-for-Galaxy-M13
 ```
 
 Configure and build using the appropriate Samsung build configuration or your existing build script.
@@ -68,6 +68,7 @@ Configure and build using the appropriate Samsung build configuration or your ex
 Example:
 
 ```bash
+chmod +x build_kernel.sh
 ./build_kernel.sh
 ```
 
