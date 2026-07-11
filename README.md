@@ -1,6 +1,6 @@
 # VoidKernel
 
-A custom Linux kernel for the **Samsung Galaxy M13 (SM-M135F)** focused on improving performance, responsiveness, thermal behavior, and overall system efficiency while maintaining stability.
+A custom Linux kernel for the **Samsung Galaxy M13 (SM-M135FU)** focused on improving performance, responsiveness, thermal behavior, and overall system efficiency while maintaining stability.
 
 > **Current Status:** Early Development
 
