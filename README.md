@@ -56,6 +56,13 @@ Planned improvements include:
 
 ## Building
 
+### Prerequisites
+
+* Linux
+* Android Clang toolchain
+* GNU Binutils
+* Git
+
 Clone the repository:
 
 ```bash
@@ -63,20 +70,19 @@ git clone https://github.com/sapnilink/VoidKernel-for-Galaxy-M13.git
 cd VoidKernel-for-Galaxy-M13
 ```
 
-Configure and build using the appropriate Samsung build configuration or your existing build script.
-
-Example:
+Build the kernel using the provided Samsung build script:
 
 ```bash
 chmod +x build_kernel.sh
 ./build_kernel.sh
 ```
 
-The compiled kernel image will typically be located in:
+> **Note**
+>
+> The provided build script uses Samsung's stock defconfig. Development builds of VoidKernel may use a modified defconfig depending on the branch or active development changes.
 
-```text
-out/arch/arm64/boot/Image
-```
+The compiled kernel image will be generated in the appropriate build output directory.
+
 
 ---
 
